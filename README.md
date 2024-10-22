@@ -22,5 +22,4 @@
 
 staticフォルダ内のcssファイル（markdown7.css）は下記より拝借しております
 
-- https://github.com/sinnerschrader/markdown-css/tree/master
 - https://jasonm23.github.io/markdown-css-themes/
