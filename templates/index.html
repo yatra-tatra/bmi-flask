@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="UTF-8">
+    <title>BMIの計算</title>
+    <link rel="stylesheet" href="/static/markdown7.css" type="text/css" />
+  </head>
+  <body>
+    <form action='/bmi'>
+      <h2>BMI値をけいさんします</h2>
+      <h3>データにゅうりょく</h3>
+      <label>
+        しんちょう（cm）
+        <input type="text" name="in_height">
+      </label>
+      <label>
+        たいじゅう（kg）
+        <input type="text" name="in_weight">
+      </label>
+      <button type="submit" formmethod="POST">けいさん</button>
+    </form>
+  </body>
+</html>
