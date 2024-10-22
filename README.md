@@ -1,16 +1,17 @@
-# BMI計算機をFlaskで
+# BMI計算をFlaskで
 ## 概要
 
-- Pythonのプログラム・サンプルとして定番のBMI計算をFlaskを使ってwebアプリケーション化したもの
-- 教材としての使用を想定しており，いろいろ不完全な部分があります
+- Python初心者向けプログラム・サンプルとして定番のBMI計算をFlaskを使ってwebアプリケーション化したもの
+- 教材としての使用を想定しており，いろいろ不完全な部分を残してあります
 
 ## 使用法
 
 1. ビルトインwebサーバの起動：`python3 app.py`（Linux, Mac），`py app.py`（Windows）
 2. ブラウザからアクセス：`http://localhost:5000/`
 3. 身長と体重を入力して「けいさん」ボタンを押すだけ
-4. サーバ停止で終了：`Ctrl-C`
-5. 以上
+4. 何も入力せずにボタンを押すと，エラーになります
+5. サーバ停止で終了：`Ctrl-C`
+6. 以上
 
 ## 参考資料
 ### 書籍・Website
@@ -20,6 +21,6 @@
 
 ### CSSファイル
 
-staticフォルダ内のcssファイル（markdown7.css）は下記より拝借しております
+staticフォルダ内のcssファイル（markdown7.css）は下記より拝借しています
 
 - https://jasonm23.github.io/markdown-css-themes/
